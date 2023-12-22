@@ -1,0 +1,7 @@
+Page                Description
+-----------         -----------
+Home                Homepage must engage visitors immediately
+Products/Services   Showcases the Business offerings detailing each option and its advantages
+About us            Most frequently visited webpages
+
+Webflow Resource    https://webflow.com/blog/pages-on-a-website

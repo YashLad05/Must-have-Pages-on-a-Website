@@ -1,0 +1,63 @@
+.modal-container {
+    position: fixed; /* Will be centered wrt parent container*/
+    z-index: 1;
+
+    /* left: 0;
+    top: 0; */
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal{
+    /* outline: 1px solid #3d2fff; */
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: #fff;
+    width: 25em;
+}
+
+.modal .header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #1d4ed8;
+}
+
+.modal .btn {
+    display: block;
+    margin: auto; /* Margin Auto :: So that it is centered Horizontally */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+
+.form-group label {
+    margin-bottom: 0.2rem;
+}
+
+.errorField{
+    background-color: #f8d7da;
+    color: #df4759;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
